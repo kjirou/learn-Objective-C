@@ -8,7 +8,7 @@ OBJCFLAGS = -x objective-c -framework Foundation
 # 実行ファイル名
 TARGET = main
 # ソースファイル
-SRC = main.m Dog.m
+SRC = main.m Dog.m Calculator.m
 
 # デフォルトターゲット（コンパイルして実行）
 all: build run
